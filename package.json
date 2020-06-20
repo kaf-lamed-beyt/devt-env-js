@@ -4,7 +4,8 @@
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "scripts": {
     "prestart": "node build_scripts/serverMsg.js",
-    "start": "node build_scripts/srcServer.js"
+    "start": "node build_scripts/srcServer.js",
+    "poststart": "node build_scripts/serverMsg.js"
   },
   "author": "Cory House",
   "license": "MIT",
@@ -22,13 +23,8 @@
     "cheerio": "0.22.0",
     "compression": "^1.7.4",
     "cross-env": "3.1.3",
-<<<<<<< HEAD
-    "css-loader": "^3.6.0",
-    "eslint": "3.8.1",
-=======
     "css-loader": "0.25.0",
     "eslint": "4.18.2",
->>>>>>> 6b2660646ac1bd8c310f279ba252b37b5ea6cc7a
     "eslint-plugin-import": "^2.21.2",
     "eslint-watch": "^7.0.0",
     "express": "^4.17.1",
@@ -43,11 +39,7 @@
     "npm-run-all": "3.1.1",
     "nsp": "^2.6.2",
     "numeral": "1.5.3",
-<<<<<<< HEAD
     "open": "^7.0.4",
-=======
-    "open": "6.0.0",
->>>>>>> 6b2660646ac1bd8c310f279ba252b37b5ea6cc7a
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
     "surge": "0.20.4",
