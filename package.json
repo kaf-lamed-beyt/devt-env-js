@@ -5,7 +5,9 @@
   "scripts": {
     "prestart": "node build_scripts/serverMsg.js",
     "start": "node build_scripts/srcServer.js",
-    "poststart": "node build_scripts/serverMsg.js"
+    "poststart": "node build_scripts/serverMsg.js",
+    "security-check": "nsp check",
+    "share": "lt --port 1234"
   },
   "author": "Cory House",
   "license": "MIT",
@@ -37,7 +39,7 @@
     "mocha": "^8.0.1",
     "nock": "^13.0.0",
     "npm-run-all": "3.1.1",
-    "nsp": "^2.6.2",
+    "nsp": "^2.8.1",
     "numeral": "1.5.3",
     "open": "^7.0.4",
     "rimraf": "2.5.4",
