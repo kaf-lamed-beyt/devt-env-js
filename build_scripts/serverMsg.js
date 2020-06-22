@@ -1,4 +1,4 @@
-const chalk = require('chalk')
+import chalk from 'chalk'
 
 const message = chalk.green('Starting server in dev mode...')
 // the variable below shows the location of the devolpment server in your browser on the terminal
