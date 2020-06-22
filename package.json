@@ -6,7 +6,7 @@
     "prestart": "node build_scripts/serverMsg.js",
     "start": "node build_scripts/srcServer.js",
     "poststart": "node build_scripts/serverMsg.js",
-    "security-check": "nsp check",
+    "security-check": "npm audit",
     "share": "lt --port 1234"
   },
   "author": "Cory House",
